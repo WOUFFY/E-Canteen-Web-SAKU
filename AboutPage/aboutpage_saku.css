@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #292929;
+    height: 100%;
+}
+
+.nav-body{
+    background-image: url(../img/restaurant.jpg);
+    height: 35rem;
+    background-size: cover;
+    background-position: 0 -60rem;
+    background-blend-mode: darken;
+    display: block;
+}
+
+.nav-body .welcome{
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 7rem;
+    justify-content: center;
+    padding: 5rem 3rem 13.3rem 3rem;
+}
+
+.navbar .judul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: antiquewhite;
+    padding-bottom: 5.1rem;
+    
+}
+.navbar .nav a{
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.5s ease;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav a:hover{
+    transition: 0.5s;
+}
+
+.navbar .nav a:hover::after{
+    transition: 0.3s;
+    transform: scaleX(1);
+}
+
+.navbar .nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid antiquewhite;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.paragraph1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 2.5rem;
+}
+.paragraph1 p{
+    margin-right: 1rem;
+    border-bottom: 3px dashed #292929;
+    text-align: justify;
+}
+
+.paragraph2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 2.5rem;
+}
+.paragraph2 p{
+    margin-left: 1rem;
+    border-bottom: 3px dashed #292929;
+    text-align: justify;
+}
+
+.paragraph1 img, .paragraph2 img{
+    border-radius: 1rem;
+    width: 30%;
+    height: 30%;
+}
+
+.footer .copy{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #292929;
+    color: antiquewhite;
+}

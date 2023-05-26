@@ -1,0 +1,178 @@
+/* Rana Ekakurnia Fathin 2110511059*/
+
+/*CSS reset by meyerweb*/
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/*MAIN CSS*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #292929;
+    height: 100%;
+}
+
+.header{
+    padding: 35px;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 2px solid #292929;
+}
+
+.nav-body{
+    background-image: url(../img/food.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: 0 -150px;
+    background-blend-mode: darken;
+}
+
+.navbar .judul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: antiquewhite;
+}
+.navbar .nav a{
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.5s ease;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav a:hover{
+    transition: 0.5s;
+}
+
+.navbar .nav a:hover::after{
+    transition: 0.3s;
+    transform: scaleX(1);
+}
+
+.navbar .nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid antiquewhite;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.main_content{
+    padding: 20px;
+}
+
+.nama{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.main_content .paragraph{
+    text-align: justify;
+    padding: 16px 32px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 16px;
+    border-right: 5px solid #292929;
+    border-left: 5px solid #292929;
+}
+
+.footer .copy{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #292929;
+    color: antiquewhite;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img{
+    float: left;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+}

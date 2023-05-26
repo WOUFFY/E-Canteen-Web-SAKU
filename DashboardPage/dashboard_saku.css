@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2C3333;
+    height: 100%;
+}
+
+
+.navbar .judul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #334444;
+    color: antiquewhite;
+    
+}
+.navbar .nav a{
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.5s ease;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav a:hover{
+    transition: 0.5s;
+}
+
+.navbar .nav a:hover::after{
+    transition: 0.3s;
+    transform: scaleX(1);
+}
+
+.navbar .nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid antiquewhite;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.dashboard-makanan{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 2.5rem;
+}
+.dashboard-makananp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    text-align: justify;
+}
+.dashboard-makanan button{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 40%;
+    background-color: #dfdfdf;
+    color: #141414;
+    transition: 0.5s;
+    font-weight: 900;
+}
+.dashboard-makanan button:hover{
+    background-color: #141414;
+    color: #dfdfdf;
+}
+.dashboard-minuman{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 2.5rem;
+}
+.dashboard-minumanp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    text-align: justify;
+}
+.dashboard-minuman button{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 40%;
+    background-color: #dfdfdf;
+    color: #141414;
+    transition: 0.5s;
+    font-weight: 900;
+}
+.dashboard-minuman button:hover{
+    background-color: #141414;
+    color: #dfdfdf;
+}
+
+.dashboard-makanan img, .dashboard-minuman img{
+    border-radius: 1rem;
+    width: 30%;
+    height: 30%;
+}
+
+.footer .copy{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #292929;
+    color: antiquewhite;
+}
