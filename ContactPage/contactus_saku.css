@@ -58,3 +58,31 @@ body{
     transform: scaleX(0);
     transition: 0.3s;
 }
+
+.Logo {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.Logo .h1{
+    color: #DFDFDF;
+}
+
+.content{
+    text-align: center;
+    margin: 0 200px;
+    font-size: 24px;
+}
+
+.footer .copy{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #292929;
+    color: antiquewhite;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
