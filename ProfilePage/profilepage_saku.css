@@ -55,7 +55,56 @@ body{
     transform: scaleX(0);
     transition: 0.3s;
 }
+.content{
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+}
 
+.box {
+    margin-top: 10px;
+}
+.inputbox{
+    padding-bottom: 10px;
+}
+.inputbox input{
+    margin: 5px 0;
+    padding: 25px;
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 100%;
+    /* padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+    background-color: #4d7456;
+    color: #fff;
+    font-weight: 300;
+}
+.inputbox ::placeholder{
+    color: #fff;
+    opacity: 80%;
+}
+.submit-btn{
+    /* text-align: center; */
+    justify-content: space-between;
+    font-size: 12px;
+    /* border-bottom: 1px solid #dfdfdf; */
+    padding-bottom: 0.5rem;
+}
+.submit-btn button{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 10%;
+    background-color: #dfdfdf;
+    color: #141414;
+    transition: 0.5s;
+    font-weight: 900;
+}
+.submit-btn button:hover{
+    background-color: #141414;
+    color: #dfdfdf;
+}
 
 .footer .copy{
     margin-top: 50px;

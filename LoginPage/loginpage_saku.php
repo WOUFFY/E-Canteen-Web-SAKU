@@ -24,24 +24,25 @@
                 </div>
                 <div class="submit_field">
                     <button type="submit" name="submit" value="Sign Up">Login</button>
-                    <label>dont have an account? <a href="registerpage_saku.php">Register</a></label>
+                    <label>dont have an account? <a href="../RegisterPage/registerpage_saku.php">Register</a></label>
                 </div>
             </form>
             <?php
                 if(isset($_POST['submit'])){
                     session_start();
-                    include 'db.php';
+                    include '../DashboardPage/db.php';
                     $user = $_POST['username'];
                     $password = $_POST['password'];
 
                     $cek = mysqli_query($con, "SELECT * FROM user WHERE user_username = '".$user."' AND user_password = '".$password."'");
                     if(mysqli_num_rows($cek) > 0 ){
+
                         $d = mysqli_fetch_object($cek);
                         $_SESSION['status_login'] = true;
                         $_SESSION['a_global'] = $d;
-                        $_SESSION['id'] = $d->user_id;
+                        $_SESSION['id'] = $d->user_Id;
 
-                        echo '<script>window.location = "dashboard_saku.php"</script>';
+                        echo '<script>window.location = "../DashboardPage/dashboard_saku.php"</script>';
                     }
                     else{
                         echo '<script>alert("Username atau Password anda salah!")</script>';

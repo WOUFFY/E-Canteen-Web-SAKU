@@ -37,7 +37,7 @@
                  if(isset($_POST['submit'])){
                     session_start();
 
-                    include 'db.php';
+                    include '../DashboardPage/db.php';
 
                     $temp = "SELECT * FROM user";
                     if ($result = mysqli_query($con, $temp)) {
@@ -66,7 +66,7 @@
                         if( $rowcountbf = ($rowcountaf + 1) ){
                             $_SESSION['status_login'] = true;
     
-                            echo '<script>window.location = "loginpage_saku.php"</script>';
+                            echo '<script>window.location = "../LoginPage/loginpage_saku.php"</script>';
                         }
                     }
 

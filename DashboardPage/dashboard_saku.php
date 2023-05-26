@@ -18,11 +18,11 @@
      <div class="nav-body">
         <nav class="navbar">
             <div class="judul">
-                <a href="../LoginPage/dashboard_saku.php" target="_self">SAKU.co</a>
+                <a href="../DashboardPage/dashboard_saku.php" target="_self">SAKU.co</a>
             </div>
 
             <div class="nav">
-                <a href="#">Profile</a>
+                <a href="../ProfilePage/profilepage_saku.php">Profile</a>
                 <a href="#">Menu</a>
                 <a href="../HomePage/homepage_saku.html">Keluar </a>
 
@@ -36,7 +36,7 @@
         <div class="dashboard-makananp">
             <h3>Makanan</h3> 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat, maiores voluptas voluptatem nemo porro non earum consequatur optio, dolorem aliquid quae iure! Voluptatem earum molestiae, aperiam quasi maiores dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos facere quo rem facilis mollitia, voluptatum exercitationem. Sit eos magni quis praesentium, ipsam animi. Quod architecto quasi eos inventore in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores repudiandae porro.</p>
-            <button onclick="window.location = 'menumakanan_saku.php'" type="submit" name="submit">Lihat</button>
+            <button onclick="window.location = '../MenuPage/menumakanan_saku.php'" type="submit" name="submit">Lihat</button>
         </div>
     </div>
     <div class="dashboard-minuman">
@@ -44,7 +44,7 @@
         <div class="dashboard-minumanp">
             <h3>Minuman</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat, maiores voluptas voluptatem nemo porro non earum consequatur optio, dolorem aliquid quae iure! Voluptatem earum molestiae, aperiam quasi maiores dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos facere quo rem facilis mollitia, voluptatum exercitationem. Sit eos magni quis praesentium, ipsam animi. Quod architecto quasi eos inventore in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores repudiandae porro.</p>
-            <button onclick="window.location = 'menuminuman_saku.php'" type="submit" name="submit">Lihat</button>
+            <button onclick="window.location = '../MenuPage/menuminuman.php'" type="submit" name="submit">Lihat</button>
         </div>
     </div>
 
