@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #141414;
+    background-color: #dfdfdf;
+    height: 100%;
+}
+
+/* navbar */
+.navbar .judul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #dfdfdf;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    /* color: #dfdfdf; */
+    
+}
+.navbar .nav a{
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #dfdfdf;
+    transition: all 0.5s ease;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav a:hover{
+    transition: 0.5s;
+}
+
+.navbar .nav a:hover::after{
+    transition: 0.3s;
+    transform: scaleX(1);
+}
+
+.navbar .nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dfdfdf;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+/* shopping bag */
+.bag{
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bag .cart{
+    position: relative;
+    padding: 5px;
+}
+
+.bag .cart img{
+    cursor: pointer;
+}
+
+.bag .cartAmount{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 16px;
+    background-color: #141414;
+    color: #dfdfdf;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.bag img{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+/* manu item */
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.shop .item{
+    border: 3px solid #141414;
+    border-radius: 5px;
+}
+
+.shop .item .food{
+    /* background-size: cover; */
+    width: 217px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.shop .item .details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.shop .item .price-quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-quantity{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font: 12px;
+}
+
+.button-quantity img{
+    cursor: pointer;
+}
+
+.footer .copy{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    background-color: #141414;
+    color: #dfdfdf;
+}

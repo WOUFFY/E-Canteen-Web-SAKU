@@ -26,7 +26,7 @@
 
             <div class="nav">
                 <a href="#">Profile</a>
-                <a href="#">Menu</a>
+                <a href="../MenuPage/MenuPage_SAKU.html">Menu</a>
                 <a href="../HomePage/homepage_saku.html">Keluar </a>
 
             </div>
