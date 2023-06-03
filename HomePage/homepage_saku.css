@@ -54,7 +54,8 @@ table {
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: #292929;
+    color: #dfdfdf;
+    background-image: url("../img/dark-pattern.jpg");
     height: 100%;
 }
 
@@ -62,7 +63,7 @@ body{
     padding: 35px;
     font-weight: bold;
     font-size: 50px;
-    border-bottom: 2px solid #292929;
+    border-bottom: 2px solid #dfdfdf;
 }
 
 .nav-body{
@@ -76,7 +77,7 @@ body{
 .navbar .judul a{
     font-size: 30px;
     text-decoration: none;
-    color: antiquewhite;
+    color: #dfdfdf;
 }
 
 .navbar{
@@ -85,13 +86,13 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
-    color: antiquewhite;
+    color: #dfdfdf;
 }
 .navbar .nav a{
     margin-right: 10px;
     padding: 5px;
     text-decoration: none;
-    color: antiquewhite;
+    color: #dfdfdf;
     transition: all 0.5s ease;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -110,7 +111,7 @@ body{
     content: '';
     display: block;
     padding-bottom: 5px;
-    border-bottom: 1px solid antiquewhite;
+    border-bottom: 1px solid #dfdfdf;
     transform: scaleX(0);
     transition: 0.3s;
 }
@@ -132,8 +133,8 @@ body{
     margin-right: 16px;
     margin-left: 16px;
     font-size: 16px;
-    border-right: 5px solid #292929;
-    border-left: 5px solid #292929;
+    border-right: 5px solid #dfdfdf;
+    border-left: 5px solid #dfdfdf;
 }
 
 .footer .copy{
@@ -141,8 +142,7 @@ body{
     text-align: center;
     font-size: 15px;
     padding: 40px;
-    background-color: #292929;
-    color: antiquewhite;
+    color: #dfdfdf;
 }
 
 .slider{
