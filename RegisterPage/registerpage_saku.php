@@ -50,12 +50,15 @@
                     $email = $_POST['email'];
                     $nama = $_POST['nama'];
                     $password = $_POST['password'];
+                    // enkripsi password
+                    $password = password_hash($password, PASSWORD_DEFAULT);
 
                     $cek = mysqli_query($con, "SELECT * FROM user WHERE user_email = '".$email."'");
                     if(mysqli_num_rows($cek) > 0 ){
                         echo '<script>alert("Email tersebut sudah terdaftar!")</script>';
                     }   
                     else{
+                        
                         $insert = mysqli_query($con, "INSERT INTO user (user_username,user_nama,user_email,user_password) VALUES ('".$user."','".$nama."','".$email."','".$password."')");
     
                         if ($result2 = mysqli_query($con, $temp)) {
