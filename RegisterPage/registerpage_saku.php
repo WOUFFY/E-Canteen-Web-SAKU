@@ -50,8 +50,6 @@
                     $email = $_POST['email'];
                     $nama = $_POST['nama'];
                     $password = $_POST['password'];
-                    // enkripsi password
-                    $password = password_hash($password, PASSWORD_DEFAULT);
 
                     $cek = mysqli_query($con, "SELECT * FROM user WHERE user_email = '".$email."'");
                     if(mysqli_num_rows($cek) > 0 ){
