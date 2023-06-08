@@ -66,7 +66,7 @@
                         }
                         if( $rowcountbf = ($rowcountaf + 1) ){
                             $_SESSION['status_login'] = true;
-    
+                            echo '<script>alert("Register data berhasil!")</script>';
                             echo '<script>window.location = "../LoginPage/loginpage_saku.php"</script>';
                         }
                     }

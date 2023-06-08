@@ -1,7 +1,8 @@
 <?php
+    error_reporting(0);
     session_start();
     if($_SESSION['status_login'] != true){
-        echo '<script>window.location = "loginpage_saku.php"</script>';
+        echo '<script>window.location = "../HomePage/homepage_saku.html"</script>';
     }
 ?>
 <!DOCTYPE html>
@@ -24,7 +25,7 @@
             <div class="nav">
                 <a href="../ProfilePage/profilepage_saku.php">Profile</a>
                 <a href="../MenuPage/MenuPage_SAKU.html">Menu</a>
-                <a href="../HomePage/homepage_saku.html">Keluar </a>
+                <a href="../DashboardPage/keluar.php">Keluar </a>
 
             </div>
         </nav>
