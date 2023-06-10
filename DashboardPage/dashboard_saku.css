@@ -57,19 +57,24 @@ body{
     transition: 0.3s;
 }
 
-.dashboard-makanan{
+.container-menu{
+    padding-top: 64px;
+}
+
+.dashboard-menu{
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
     margin: 2.5rem;
 }
-.dashboard-makananp{
+.dashboard-menup{
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
     text-align: justify;
+    font-size: larger;
 }
-.dashboard-makanan button{
+.dashboard-menu button{
     border: none;
     border-radius: 10px;
     height: 30px;
@@ -79,38 +84,12 @@ body{
     transition: 0.5s;
     font-weight: 900;
 }
-.dashboard-makanan button:hover{
-    background-color: #141414;
-    color: #dfdfdf;
-}
-.dashboard-minuman{
-    display: flex;
-    justify-content: space-between;
-    padding: 2.5rem;
-    margin: 2.5rem;
-}
-.dashboard-minumanp{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-    text-align: justify;
-}
-.dashboard-minuman button{
-    border: none;
-    border-radius: 10px;
-    height: 30px;
-    width: 40%;
-    background-color: #dfdfdf;
-    color: #141414;
-    transition: 0.5s;
-    font-weight: 900;
-}
-.dashboard-minuman button:hover{
+.dashboard-menu button:hover{
     background-color: #141414;
     color: #dfdfdf;
 }
 
-.dashboard-makanan img, .dashboard-minuman img{
+.dashboard-menu img{
     border-radius: 1rem;
     width: 30%;
     height: 30%;
@@ -120,6 +99,6 @@ body{
     margin-top: 50px;
     text-align: center;
     font-size: 15px;
-    padding: 40px;
+    padding: 50px 40px 40px 40px;
     color: #dfdfdf;
 }

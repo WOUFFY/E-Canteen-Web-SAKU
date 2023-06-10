@@ -32,20 +32,14 @@
     </div>
 
     <!-- konten --> 
-    <div class="dashboard-makanan">
-        <img src="../img/dining3.jpg" alt="#">
-        <div class="dashboard-makananp">
-            <h3>Makanan</h3> 
-            <p>SAKU.co menyediakan makanan yang berkualitas dan ramah dikantong atau bersahabat dengan dompet anda, dijamin enak dan mantap, PESAN SEKARANG!</p>
-            <button onclick="window.location = '../MenuPage/MenuPage_SAKU.html'" type="submit" name="submit">Lihat</button>
-        </div>
-    </div>
-    <div class="dashboard-minuman">
-        <img src="../img/dining4.jpg" alt="#">
-        <div class="dashboard-minumanp">
-            <h3>Minuman</h3>
-            <p>Minuman yang disediakan oleh SAKU.co juga tidak kalah segar dan nikmat, dijamin haus hilang harga tetap bersahabat, BELI sekarang!</p>
-            <button onclick="window.location = '../MenuPage/MenuPage_SAKU.html'" type="submit" name="submit">Lihat</button>
+    <div class="container-menu">
+        <div class="dashboard-menu">
+            <img src="../img/dining4.jpg" alt="#">
+            <div class="dashboard-menup">
+                <h3>Menu</h3>
+                <p>SAKU.co menyediakan makanan yang berkualitas dan ramah dikantong atau bersahabat dengan dompet anda, dijamin enak dan mantap. Minuman yang disediakan oleh SAKU.co juga tidak kalah segar dan nikmat, dijamin haus hilang harga tetap bersahabat, BELI sekarang!</p>
+                <button onclick="window.location = '../MenuPage/MenuPage_SAKU.html'" type="submit" name="submit">Lihat</button>
+            </div>
         </div>
     </div>
 
