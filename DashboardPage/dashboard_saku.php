@@ -36,7 +36,7 @@
         <img src="../img/dining3.jpg" alt="#">
         <div class="dashboard-makananp">
             <h3>Makanan</h3> 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat, maiores voluptas voluptatem nemo porro non earum consequatur optio, dolorem aliquid quae iure! Voluptatem earum molestiae, aperiam quasi maiores dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos facere quo rem facilis mollitia, voluptatum exercitationem. Sit eos magni quis praesentium, ipsam animi. Quod architecto quasi eos inventore in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores repudiandae porro.</p>
+            <p>SAKU.co menyediakan makanan yang berkualitas dan ramah dikantong atau bersahabat dengan dompet anda, dijamin enak dan mantap, PESAN SEKARANG!</p>
             <button onclick="window.location = '../MenuPage/MenuPage_SAKU.html'" type="submit" name="submit">Lihat</button>
         </div>
     </div>
@@ -44,7 +44,7 @@
         <img src="../img/dining4.jpg" alt="#">
         <div class="dashboard-minumanp">
             <h3>Minuman</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat, maiores voluptas voluptatem nemo porro non earum consequatur optio, dolorem aliquid quae iure! Voluptatem earum molestiae, aperiam quasi maiores dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos facere quo rem facilis mollitia, voluptatum exercitationem. Sit eos magni quis praesentium, ipsam animi. Quod architecto quasi eos inventore in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dolores repudiandae porro.</p>
+            <p>Minuman yang disediakan oleh SAKU.co juga tidak kalah segar dan nikmat, dijamin haus hilang harga tetap bersahabat, BELI sekarang!</p>
             <button onclick="window.location = '../MenuPage/MenuPage_SAKU.html'" type="submit" name="submit">Lihat</button>
         </div>
     </div>
