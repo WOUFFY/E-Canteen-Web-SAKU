@@ -70,4 +70,20 @@ let menu = [{
     price: "38000",
     desc: "Pizza ala Italiano dengan keju mozarella nikmat mantap ambatukam",
     img: "../menu_img/pizza.jpg"
-}];
+},{
+    id: "thirteen",
+    name: "Chocolate Milkshake",
+    price: "8000",
+    desc: "Milkshake Chocolate nimkat sampe tumpeh - tumpeh",
+    img: "../menu_img/milkshake.jpg"
+},{
+    id: "fourteen",
+    name: "Orange Juice",
+    price: "5000",
+    desc: "Jus jeruk nikmat mantap segar abiezz",
+    img: "../menu_img/orangeJuice.jpg"
+},{id: "fivteen",
+    name: "Summer Time Juice",
+    price: "7000",
+    desc: "Jus musim panas yang segar nikmat membuat tubuh menjadi segar dan dingin",
+    img: "../menu_img/summertimeJuice.jpg"}];
